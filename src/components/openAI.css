@@ -1,0 +1,125 @@
+.aimain{
+
+    /* background-color: rgb(57, 66, 83); */
+    backdrop-filter: blur(15px);
+    padding: 4vh;
+/* border: 2px solid black; */
+box-shadow: 2px 0px 10px black;
+height: 120vh;
+display:flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+    left: 30vw;
+    width:55vw ;
+    /* border: 2px solid black; */
+    justify-content: flex-start;
+
+}
+
+.title{
+    width:50vw;
+    height: 6.99vh;
+    /* padding: 0.2vh; */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 4px black;
+    background:linear-gradient(to right,rgb(154, 253, 255),rgb(237, 191, 198));
+  }
+  
+  .text1{
+    border: 2px solid black;
+    margin-top: 4vh;
+    width:40vw;
+    height: 8vh;
+    font-size: 2.98vmin;
+    border-radius: 10px;
+    padding: 2vh;
+    transition-property: all;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+  
+  }
+  
+  .text1:hover{
+    background-color: rgb(226, 225, 225);
+    
+  }
+  .main{
+    background-color: rgb(38, 41, 55);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  .button{
+    margin-top: 4vh;
+  height:5vh;
+  width:10vw;
+  background-color: rgb(254, 127, 127);
+  border-radius: 10px;
+  border: none;
+  font-size: 2.8vmin;
+  transition-property: all;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+  
+  
+  }
+  .button:hover{
+    cursor:pointer;
+    background-color: black;
+    color:aliceblue;
+    border:2px solid white;
+  
+  }
+  
+  .response{
+    
+    margin-top: 4vh;
+    /* padding: 2vh; */
+  font-size: 2.98vmin;
+    border: 4px solid rgb(67, 67, 67);
+    height: 512px;
+    width: 512px;
+    border-radius: 10px;
+  }
+
+  .download{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 4vh;
+    color: black;
+    height:5vh;
+    width:15vw;
+    background-color: rgb(255, 121, 121);
+    border-radius: 10px;
+    border: none;
+    font-size: 2.8vmin;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out; 
+  }
+  
+  .download:hover{
+    cursor:pointer;
+    background-color: black;
+    color:aliceblue;
+    border:2px solid white;
+    text-decoration: none;
+  
+  }
+  
+  .imgres{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .prompt{
+    margin-top: 4vh;
+    color: rgb(217, 217, 217);
+    font-size: 4vmin;
+  }
